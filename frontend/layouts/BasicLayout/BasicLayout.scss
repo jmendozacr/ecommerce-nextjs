@@ -1,8 +1,9 @@
 .basic-layout {
     height: 100vh;
+    background-color: $primary;
+    color: $secondary;
 
     .content {
-        background-color: gray;
         height: 100vh;
     }
 }
