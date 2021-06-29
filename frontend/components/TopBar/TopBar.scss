@@ -1,0 +1,14 @@
+.header {
+    .ui.menu {
+        background-color: $primary;
+        border: 0;
+
+        .item {
+            color: $secondary;
+
+            &:hover {
+                color: $tertiary;
+            }
+        }
+    }
+}
