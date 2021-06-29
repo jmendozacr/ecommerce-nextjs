@@ -4,10 +4,12 @@
         border: 0;
 
         .item {
-            color: $secondary;
-
-            &:hover {
-                color: $tertiary;
+            a {
+                color: $secondary;
+    
+                &:hover {
+                    color: $tertiary;
+                }
             }
         }
     }
