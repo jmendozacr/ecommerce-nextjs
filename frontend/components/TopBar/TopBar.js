@@ -14,6 +14,13 @@ export default function TopBar() {
 
             <Menu.Menu position='right'>
                 <Menu.Item>
+                    <Input
+                        id="searc-game"
+                        icon={{name: "search"}}
+                        placeholder="search game"
+                    />
+                </Menu.Item>
+                <Menu.Item>
                     <Link href="/test">
                         <a>Project Name</a>
                     </Link>

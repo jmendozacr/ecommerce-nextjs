@@ -11,6 +11,25 @@
                     color: $tertiary;
                 }
             }
+
+            input {
+                background-color: transparent;
+                border: 0;
+                border-bottom: 2px solid $tertiary;
+                border-radius: 0;
+                color: $secondary;
+                width: 170px;
+                transition: width 0.7s;
+
+                &:focus {
+                    width: 250px;
+                }
+            }
+
+            i {
+                color: $tertiary;
+                opacity: 1 !important;
+            }
         }
     }
 }
